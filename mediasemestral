@@ -1,0 +1,47 @@
+import  java.util.Scanner ;
+
+publc class HSMmediasemestral {
+
+		public  static  void  main ( String [] args ) {
+			
+			Teclado do scanner =  novo  scanner ( sistema . In );
+      
+				duplo n1, n2, n3, n4, mediaBim1 =  0 ;
+				duplo n_1, n_2, n_3, n_4, mediaBim2 =  0 ;
+				mediasemestral dupla =  0 ;
+
+
+			Sistema . para fora . println ( " Digite as 4 notas do primeiro bimestre: " );
+			n1 = teclado . nextDouble ();
+			n2 = teclado . nextDouble ();
+			n3 = teclado . nextDouble ();
+			n4 = teclado . nextDouble ();
+
+			mediaBim1 = ((n1 * 3 ) + (n2 * 3 ) + (n3 * 2 ) + (n4 * 2 )) / 4 ;
+			Sistema . para fora . println ( " mediaBim1 = "  + mediaBim1);
+
+
+			Sistema . para fora . println ( " Digite as 4 notas do segundo bimestre: " );
+			n_1 = teclado . nextDouble ();
+			n_2 = teclado . nextDouble ();
+			n_3 = teclado . nextDouble ();
+			n_4 = teclado . nextDouble ();
+
+			mediaBim2 = ((n_1 * 3 ) + (n_2 * 3 ) + (n_3 * 2 ) + (n_4 * 2 )) / 4 ;
+			Sistema . para fora . println ( " mediaBim2 = "  + mediaBim2);
+
+
+			mediasemestral = (mediaBim1 + mediaBim2) / 2 ;
+			Sistema . para fora . println ( " mediasemestral = "  + mediasemestral);
+
+			if (mediasemestral > = 8 ) {
+				Sistema . para fora . println ( " Você foi aprovado " );
+			} else {
+				Sistema . para fora . println ( " Você foi reprovado " );
+				
+			}
+
+
+				}
+
+			}
